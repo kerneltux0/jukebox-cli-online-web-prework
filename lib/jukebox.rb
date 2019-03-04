@@ -44,4 +44,10 @@ def run(argument)
   help
   puts "Please enter a command:"
   userInput = gets.chomp
+  if userInput == "exit"
+    exit_jukebox
+  elsif userInput == "list"
+    list
+  elsif userInput == "help"
+    help
 end

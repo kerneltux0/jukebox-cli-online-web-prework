@@ -40,6 +40,6 @@ def exit_jukebox
   puts "Goodbye"
 end
 
-def run
+def run(argument)
 
 end

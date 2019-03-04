@@ -43,4 +43,5 @@ end
 def run(argument)
   help
   puts "Please enter a command:"
+  userInput = gets.chomp
 end
